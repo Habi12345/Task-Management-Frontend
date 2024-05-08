@@ -85,9 +85,9 @@ function Login(props) {
             Don't have an account?{" "}
             <span
               className="text-purple-600 cursor-pointer"
-              onClick={() => props.setLogin((prevLogin) => !prevLogin)}
+              onClick={() => props.setLogin((prevLogin) =>!prevLogin)}
             >
-              Sign Up
+              Sign  Up
             </span>
           </p>
         </div>
